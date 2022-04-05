@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <title>NutriFit</title>
+</head>
+
+<body class="login">
+    <div class="login-container">
+        <div class="column-image">
+            <img class="login-image" src="images/loginimage.png" alt="vector image of health and fitness">
+        </div>
+        <div class="column-form">
+            <img class="logo-icon" src="images/logo-circle.ico" alt="NutriFit logo">
+            <h1 class="sign-up-heading">New here? <br>Create an account</h1>
+            <p class="login-paragraph">Already have an account? <a class="sign-in-link" href="login.html">Sign in</a>
+            </p>
+            <form action="">
+                <input type="text" class="sign-up-box input-box" placeholder="Username" required>
+                <br>
+                <input type="email" class="sign-up-box input-box" placeholder="Email" required>
+                <br>
+                <input type="password" class="sign-up-box input-box" placeholder="Password" minlength="8" required>
+                <br>
+                <input type="password" class="sign-up-box input-box" placeholder="Confirm Password" required>
+                <br>
+                <input type="number" class="sign-up-box input-box" placeholder="Height (in cms)" min="0" required>
+                <br>
+                <input type="number" class="sign-up-box input-box" placeholder="Weight (in kgs)" min="0" step="0.1" required>
+                <br>
+                <input type="number" class="sign-up-box input-box" placeholder="Age" min="0" required>
+                <br>
+                <select class="sign-up-box input-box" name="gender">
+                    <option value=" ">Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <input type="submit" class="sign-up-box login-button" value="SIGNUP">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
